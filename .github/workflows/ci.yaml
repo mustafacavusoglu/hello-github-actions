@@ -18,5 +18,7 @@ jobs:
       - name: Setup Python
         uses: actions/setup-python@v4.6.0
       - name: run python code
-        run: python all.py
+        run: | 
+          python --versipn
+          python all.py
         
