@@ -17,5 +17,6 @@ jobs:
       - run: echo "🍏 This job's status is ${{ job.status }}."
       - name: Setup Python
         uses: actions/setup-python@v4.6.0
-      - name: run all.py
+      - name: run python code
+        run: python all.py
         
