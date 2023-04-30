@@ -1,7 +1,4 @@
-# bakalım bunu nasıl yapıcaz.
+import random
 
-start = 0
-end = 100
-
-for i in range(start, end):
-  print(f'Current number is: {i}')
+def get_random():
+    return random.randint(1, 100)
