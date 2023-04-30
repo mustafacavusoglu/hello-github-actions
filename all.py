@@ -1,0 +1,1 @@
+# bakalım bunu nasıl yapıcaz.
